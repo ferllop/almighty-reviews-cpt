@@ -1,0 +1,39 @@
+.star {
+	vertical-align: baseline;
+	display: inline-block;
+	width: 15px;
+	height: 14px;
+	margin: 0 1px;
+	background-size: 15px 14px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAABkklEQVR4Ac2Wu6oTQRzGf2JlZ+sFBbVRLMQXEJ9B0mgjgiEm+x8QtBC00FR5A5/B0kfQiIKNhcQmRDCSZGfgtOcU4Vw+SCCE3ZO9c37wwTD/y8fMsLNDUUKbSxJN4x0mNW9sDL3jK03y37gajENp2uEKTREiXgbHkaRxc8aOH2tjb3ynCWY9rq9NJW235qib2Hi9aSzFjlfUTTB+bhtrjjqJX3BDRklSrMg3+exEX3YpGH/SjBXL0kNe21v43BsHalKHvLEvD5IIPe57Y1KD6US9OY2/T7kYjM9VmaqXepKRc97xJhjLEoZL9VAv8jJ3PPSORV5T1aiWMvyLuOyNb1lNlauaqu7mQY4VD6r8945zrHhcjWmXe3nPWDVVrLafdiFIKbF+Fec7SvhUfi863JU0TjAfUYZZl9sJph+nLS6wQmPNbefNjTtltvnthuFeHPGIFBRTzsaT6F0Z41+rMxvO2lxjB8rRy1M1qi360ripay92fPjU4jwZUW5svFet73KLvCwiHgfjAQVRbWw84axxDHyajlb+vInhAAAAAElFTkSuQmCC);
+	background-repeat: no-repeat;
+}
+
+.item-review-name {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+.item-review-rating {
+	display: inline-block;
+}
+.item-review-text {
+	display: block;
+	text-align: justify;
+	padding-top: 1.1em;
+	padding-bottom: 1.1em;
+	margin-bottom: 0;
+	border: none;
+}
+.item-review-fuente {
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 570px) {
+	.item-review-text {
+		padding-left: 0;
+	}
+}

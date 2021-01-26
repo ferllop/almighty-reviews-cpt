@@ -1,0 +1,7 @@
+{
+	"name": "review-form",
+	"version": "0.1.0",
+	"description": "Block to deal with de reviews of reviews custom post type",
+	"author": "Ferran Llop",
+	"license": "GPL-2.0-or-later"
+}

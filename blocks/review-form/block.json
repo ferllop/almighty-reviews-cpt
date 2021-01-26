@@ -1,0 +1,14 @@
+{
+	"name": "almighty-reviews-cpt/review-form",
+	"title": "Review form",
+	"category": "widgets",
+	"icon": "star",
+	"description": "Block to deal with de reviews of reviews custom post type",
+	"textdomain": "review-form",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css"
+}
