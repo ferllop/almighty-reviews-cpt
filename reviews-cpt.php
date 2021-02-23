@@ -44,7 +44,7 @@ if ( ! function_exists('almighty_reviews_post_type') ) {
 
         $rewrite = array(
             'slug'                  => 'opiniones',
-            'with_front'            => true,
+            'with_front'            => false,
             'pages'                 => true,
             'feeds'                 => true,
         );
@@ -76,7 +76,6 @@ if ( ! function_exists('almighty_reviews_post_type') ) {
             // 'template_lock' => 'insert'
         );
         register_post_type( 'reviews', $args );
-        remove_rewrite_tag( '%opiniones%' );
     }
 }
 
